@@ -1,0 +1,46 @@
+/* Body.module.css */
+.bodyContainer {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.mapAndAirbnbSection {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapSection {
+  flex: 1;
+}
+
+.airbnbSection {
+  margin-top: 20px;
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.itinerarySection {
+  flex: 0.67;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 20px;
+}
+.itinerarySectionmoved {
+  border: 2px solid black;
+}
+
+.airbnbSectionExpanded {
+  width: 100%;
+  height: 20%;
+}
+
+.mapSectionClose{
+  display: none;
+}
